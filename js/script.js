@@ -1,19 +1,13 @@
-console.log(1)
+let a = document.querySelector('.list');
+let b = document.querySelector('.list__item')
+let c = document.querySelectorAll('.list__item')[1]
+let d = document.querySelectorAll('.list__item')[2]
 
-function search () {
-    var input = document.getElementById('searchInput');
-    var filter = input.value.toUpperCase();
-    var a = document.getElementsByClassName('item__name');
-
-    for (i=0; i<a.length; i++){
-        if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
-            a[i].parentElement.parentElement.style.display = "";
-        }
-        else {
-            a[i].parentElement.parentElement.style.display = "none";
-        }
-    }
-}
-
-var inpu = document.getElementById('searchInput');
-console.log(1)
+a.addEventListener('click', function() {
+    b.classList.add('activ1')
+    b.classList.remove('activate1')
+    c.classList.add('activ2')
+    c.classList.remove('activate2')
+    d.classList.add('activ3')
+    d.classList.remove('activate3')
+});

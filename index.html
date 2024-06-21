@@ -9,8 +9,11 @@
 
 <body>
     <nav class="search" onkeyup="search()">
-        <div><img src="img/search.svg"/></div>
-        <input class="search__input" id="searchInput"/>
+        <div class="search__pic">
+            <div class="search__logo"><img src="img/search.svg"/></div>
+            <div class="search__ttm">TTM</div>
+        </div>
+        <input class="search__input" autocomplete="off"/>
     </nav>
     <div class="list">
         <div class="list__item">
@@ -45,6 +48,7 @@
                         <div class="item__price-true">2990₽</div>
                         <div class="item__price-false">3790</div>
                     </div>
+                    <button class="item__buy">В корзину</button>
                 </div>
             </div>
             <div class="calalog__item item">
@@ -57,6 +61,7 @@
                         <div class="item__price-true">2990₽</div>
                         <div class="item__price-false">3790</div>
                     </div>
+                    <button class="item__buy">В корзину</button>
                 </div>
             </div>
             <div class="calalog__item item">
@@ -69,6 +74,7 @@
                         <div class="item__price-true">2990₽</div>
                         <div class="item__price-false">3790</div>
                     </div>
+                    <button class="item__buy">В корзину</button>
                 </div>
             </div>
             <div class="calalog__item item">
@@ -81,18 +87,19 @@
                         <div class="item__price-true">8990₽</div>
                         <div class="item__price-false">11250</div>
                     </div>
+                    <button class="item__buy">В корзину</button>
                 </div>
             </div>
         </div>
     </main>
-    <div class="cart">
+    <a class="cart" href="cart.html">
         <svg
             width="35"
             height="35"
             xmlns="http://www.w3.org/2000/svg">
             <path d="M28.055 10.7084H23.5773V9.25002C23.5773 7.70292 22.9483 6.21919 21.8287 5.12523C20.7091 4.03127 19.1905 3.41669 17.6071 3.41669C16.0237 3.41669 14.5051 4.03127 13.3855 5.12523C12.2659 6.21919 11.6369 7.70292 11.6369 9.25002V10.7084H7.15919C6.76333 10.7084 6.3837 10.862 6.10379 11.1355C5.82388 11.409 5.66663 11.7799 5.66663 12.1667V28.2084C5.66663 29.3687 6.13838 30.4815 6.97811 31.3019C7.81784 32.1224 8.95675 32.5834 10.1443 32.5834H25.0699C26.2575 32.5834 27.3964 32.1224 28.2361 31.3019C29.0758 30.4815 29.5476 29.3687 29.5476 28.2084V12.1667C29.5476 11.7799 29.3903 11.409 29.1104 11.1355C28.8305 10.862 28.4509 10.7084 28.055 10.7084ZM14.622 9.25002C14.622 8.47647 14.9365 7.73461 15.4963 7.18763C16.0561 6.64064 16.8154 6.33335 17.6071 6.33335C18.3988 6.33335 19.1581 6.64064 19.7179 7.18763C20.2777 7.73461 20.5922 8.47647 20.5922 9.25002V10.7084H14.622V9.25002ZM26.5625 28.2084C26.5625 28.5951 26.4052 28.9661 26.1253 29.2396C25.8454 29.513 25.4658 29.6667 25.0699 29.6667H10.1443C9.74845 29.6667 9.36882 29.513 9.08891 29.2396C8.809 28.9661 8.65175 28.5951 8.65175 28.2084V13.625H11.6369V15.0834C11.6369 15.4701 11.7941 15.8411 12.074 16.1145C12.3539 16.388 12.7336 16.5417 13.1294 16.5417C13.5253 16.5417 13.9049 16.388 14.1848 16.1145C14.4647 15.8411 14.622 15.4701 14.622 15.0834V13.625H20.5922V15.0834C20.5922 15.4701 20.7495 15.8411 21.0294 16.1145C21.3093 16.388 21.6889 16.5417 22.0848 16.5417C22.4806 16.5417 22.8603 16.388 23.1402 16.1145C23.4201 15.8411 23.5773 15.4701 23.5773 15.0834V13.625H26.5625V28.2084Z" fill="#464646"/>
         </svg>
-    </div>
+    </a>
     <div class="cart__count">1</div>
 
     <script src="js/script.js"></script>

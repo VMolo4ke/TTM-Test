@@ -74,3 +74,9 @@ previous_category_btn.addEventListener('click', function() {
 let search_input = document.querySelector('.search__input');
 search_input.addEventListener("focusin", () => document.querySelector('.search__pic').style.display = 'none');
 search_input.addEventListener("focusout", () => document.querySelector('.search__pic').style.display = 'flex');
+
+let close_filter = document.querySelector('.filter__close');
+close_filter.addEventListener("click", () => document.querySelector('.filter').style.display = 'none');
+
+let open_filter = document.querySelector('.shop__filter');
+open_filter.addEventListener("click", () => document.querySelector('.filter').style.display = 'block');

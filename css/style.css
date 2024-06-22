@@ -86,8 +86,8 @@ legend {
 }
 
 body {
-  margin: 120px 0 0 0;
   background: linear-gradient(to top, rgb(37, 37, 37) 0%, rgb(114, 113, 113) 100%);
+  min-height: 100vh;
   width: 100%;
 }
 
@@ -285,7 +285,7 @@ body {
 
 .list {
   position: relative;
-  margin: 0 auto;
+  margin: 120px auto 0;
   width: 325px;
   height: 150px;
   display: flex;
@@ -336,7 +336,6 @@ body {
 }
 
 .cart__title {
-  margin: 25px 0 0 0;
   text-align: center;
   font-size: 48px;
   font-weight: 700;

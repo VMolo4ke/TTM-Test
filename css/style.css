@@ -87,10 +87,17 @@ legend {
 
 body {
   margin: 120px 0 0 0;
-  background: rgb(37, 37, 37);
-  background: url("../img/logo.svg") center no-repeat fixed, linear-gradient(to top, rgb(37, 37, 37) 0%, rgb(114, 113, 113) 100%);
-  background-attachment: fixed;
+  background: linear-gradient(to top, rgb(37, 37, 37) 0%, rgb(114, 113, 113) 100%);
   width: 100%;
+}
+
+.logo-ttm {
+  position: fixed;
+  z-index: -1;
+  width: 184px;
+  height: 52px;
+  left: calc(50% - 92px);
+  top: calc(50% - 26px);
 }
 
 .search {

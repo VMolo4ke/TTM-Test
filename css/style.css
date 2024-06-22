@@ -87,8 +87,8 @@ legend {
 
 body {
   background: rgb(37, 37, 37);
-  background: url("../img/logo.svg") center no-repeat fixed, linear-gradient(to top, rgb(37, 37, 37) 0%, rgb(114, 113, 113) 100%) 100%;
-  min-height: 100vh;
+  background: url("../img/logo.svg") center no-repeat fixed, linear-gradient(to top, rgb(37, 37, 37) 0%, rgb(114, 113, 113) 100%);
+  background-attachment: fixed;
   width: 100%;
 }
 
@@ -218,6 +218,7 @@ body {
   letter-spacing: -0.02em;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0 0 20px 0;
+  color: #FFF;
 }
 .item__price {
   display: flex;
@@ -229,6 +230,7 @@ body {
   font-weight: 800;
   line-height: 24px;
   letter-spacing: -0.02em;
+  color: #FFF;
 }
 .item__price-false {
   margin: 0 0 0 5px;
@@ -406,7 +408,7 @@ body {
 .item__operation:last-child div:last-child {
   height: 16px;
   width: 0;
-  left: calc(50% - 1px);
+  left: calc(50% - 0.5px);
   top: calc(50% - 8px);
 }
 .item__stick {

@@ -80,7 +80,3 @@ close_filter.addEventListener("click", () => document.querySelector('.filter').s
 
 let open_filter = document.querySelector('.shop__filter');
 open_filter.addEventListener("click", () => document.querySelector('.filter').style.display = 'block');
-
-const screenHeight = window.screen.height
-
-document.body.style.height = screenHeight + 'px';

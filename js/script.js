@@ -81,7 +81,6 @@ close_filter.addEventListener("click", () => document.querySelector('.filter').s
 let open_filter = document.querySelector('.shop__filter');
 open_filter.addEventListener("click", () => document.querySelector('.filter').style.display = 'block');
 
-const windowOuterHeight = window.outerHeight
-console.log(windowOuterHeight)
+const screenHeight = window.screen.height
 
-document.body.style.height = windowOuterHeight + 'px';
+document.body.style.height = screenHeight + 'px';

@@ -75,3 +75,13 @@ let search_input = document.querySelector('.search__input');
 search_input.addEventListener("focusin", () => document.querySelector('.search__pic').style.display = 'none');
 search_input.addEventListener("focusout", () => document.querySelector('.search__pic').style.display = 'flex');
 
+let sort = document.querySelector('.shop__sort');
+let sort_line = sort.getElementsByTagName('div');
+sort.addEventListener('click', function() {
+    sort_line[0].classList.toggle('active');
+    sort_line[2].classList.toggle('active');
+});
+
+let filter = document.querySelector('.shop__filter');
+let filter_list = document.querySelector('.filter');
+filter.addEventListener('click', () => filter_list.classList.toggle('active'));

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Sora:wght@100..800&display=swap");
 /* Reset and base styles  */
 * {
   padding: 0px;
@@ -136,7 +138,7 @@ body {
   height: 25px;
 }
 .search__ttm {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Sora";
   color: rgb(166, 166, 166);
   font-size: 15px;
   font-weight: 600;
@@ -158,6 +160,7 @@ body {
   justify-content: space-between;
 }
 .shop__filter {
+  font-family: "Sora";
   color: #FFF;
 }
 .shop__sort {
@@ -212,7 +215,7 @@ body {
   font-weight: 600;
   line-height: 12px;
   letter-spacing: -0.02em;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Sora";
 }
 .item__info {
   display: flex;
@@ -224,7 +227,7 @@ body {
   font-weight: 800;
   line-height: 15px;
   letter-spacing: -0.02em;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Sora";
   margin: 0 0 20px 0;
   color: #FFF;
 }
@@ -233,7 +236,7 @@ body {
   align-items: end;
 }
 .item__price-true {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Inter";
   font-size: 24px;
   font-weight: 800;
   line-height: 24px;
@@ -244,7 +247,7 @@ body {
   margin: 0 0 0 5px;
   color: rgb(170, 170, 170);
   text-decoration: line-through;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 15px;
   font-weight: 300;
   line-height: 15px;
@@ -336,6 +339,7 @@ body {
 }
 
 .cart__title {
+  margin: 15px 0 0 0;
   text-align: center;
   font-size: 48px;
   font-weight: 700;
@@ -343,7 +347,7 @@ body {
   letter-spacing: -0.02em;
   text-align: center;
   color: rgb(255, 255, 255);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Sora";
 }
 
 .order {
@@ -361,7 +365,7 @@ body {
 }
 .order__info {
   color: #FFF;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Inter";
   font-size: 20px;
   font-weight: 700;
   line-height: 20px;
@@ -378,7 +382,7 @@ body {
   border-radius: 15px;
   background: rgb(39, 39, 39);
   color: #FFF;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Sora";
   font-size: 14px;
   font-weight: 700;
   line-height: 14px;
@@ -447,82 +451,8 @@ body {
   height: 22px;
 }
 
-.filter {
-  z-index: 10;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  padding: 20px;
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-}
-.filter__close {
+.back {
   position: absolute;
-  top: 5px;
-  left: 5px;
-  border: 1px solid black;
-  border-radius: 100%;
-  width: 20px;
-  height: 20px;
-}
-.filter__title {
-  background: #fff;
-  position: fixed;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 25px;
-  text-align: center;
-  font-size: 22px;
-  font-weight: 600;
-}
-.filter__brand {
-  border-top: 1px solid gray;
-  padding: 10px 0 0 0;
-  width: 100%;
-  margin: 0 0 10px 0;
-}
-.filter__title-section {
-  font-size: 18px;
-  font-weight: 600;
-}
-.filter__type {
-  border-top: 1px solid gray;
-  padding: 10px 0 0 0;
-  width: 100%;
-}
-.filter__time {
-  border-top: 1px solid gray;
-  padding: 10px 0 0 0;
-  width: 100%;
-  margin: 15px 0 5px 0;
-}
-.filter__price {
-  margin: 50px 0 0 0;
-  border-top: 1px solid gray;
-  padding: 10px 0 0 0;
-  width: 100%;
-}
-.filter__price-block {
-  margin: 10px 0 10px 0;
-  display: flex;
-  justify-content: space-between;
-}
-.filter__price-input {
-  padding: 0 0 0 10px;
-  width: 49%;
-  height: 50px;
-  border-radius: 10px;
-  border: 1px solid gray;
-}
-.filter__price-input input {
-  width: 100%;
-  height: 100%;
-}
-.filter__time-case {
-  border-top: 1px solid gray;
-  padding: 10px 0 0 0;
-  width: 100%;
-  margin: 10px 0 0 0;
+  top: 15px;
+  left: 15px;
 }

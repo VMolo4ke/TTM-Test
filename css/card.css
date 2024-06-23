@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Sora:wght@100..800&display=swap");
 body {
-  background: linear-gradient(to top, #595959 0%, #BFBFBF 100%);
+  background: rgb(96, 96, 96);
   width: 100%;
   margin: 0;
 }
@@ -58,7 +58,8 @@ body {
 }
 .item__image {
   border-radius: 40px 0px 0px 40px;
-  min-width: 220px;
+  min-width: 200px;
+  width: 220px;
   height: 250px;
   background: rgb(54, 54, 54);
   box-shadow: -5px 6px 12px 0px rgba(0, 0, 0, 0.6);
@@ -67,13 +68,22 @@ body {
   width: 100%;
   height: 100%;
 }
+.item__characteristic {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin: 30px 0 0 30px;
+}
+
 .advantage {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 80px;
   max-width: 140px;
-  min-width: 106px;
 }
 .advantage__image {
   width: 40px;

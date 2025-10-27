@@ -4,10 +4,10 @@ self.addEventListener('install', function(event) {
       return cache.addAll([
         '/',
         '/index.html',
-        '/style.css',
-        '/script.js',
-        '/icons/icon-192.png',
-        '/icons/icon-512.png'
+        'css/style.css',
+        'js/script.js',
+        '/icon-192.png',
+        '/icon-512.png'
       ]);
     })
   );
